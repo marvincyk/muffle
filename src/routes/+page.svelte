@@ -1,2 +1,23 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<video
+	playsinline
+	autoplay
+	muted
+	loop
+	class="object-cover w-screen h-screen fixed top-0 left-0 blur-sm"
+>
+	<source src="old-film-grain.mp4" type="video/mp4" />
+</video>
+
+<div class="hero bg-base-200 min-h-screen">
+	<div class="hero-content text-center">
+		<div class="max-w-md">
+			<h1 class="text-9xl font-bold">muffle</h1>
+			<p class="py-6">
+				A book reader designed to help you focus by encouraging a quieter reading environment. As
+				ambient noise increases, the page gradually darkens or distorts, prompting you to find a
+				quieter space to read.
+			</p>
+			<button class="btn btn-ghost btn-lg btn-outline">Get Started</button>
+		</div>
+	</div>
+</div>
