@@ -8,7 +8,7 @@
 	<source src="old-film-grain.mp4" type="video/mp4" />
 </video>
 
-<div class="hero min-h-screen">
+<div class="hero bg-black min-h-screen">
 	<div class="hero-content text-center">
 		<div class="max-w-md">
 			<h1 class="text-9xl font-bold">muffle</h1>
