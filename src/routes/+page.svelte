@@ -8,7 +8,7 @@
 	<source src="old-film-grain.mp4" type="video/mp4" />
 </video>
 
-<div class="hero bg-base-200 min-h-screen">
+<div class="hero min-h-screen">
 	<div class="hero-content text-center">
 		<div class="max-w-md">
 			<h1 class="text-9xl font-bold">muffle</h1>
@@ -17,7 +17,7 @@
 				ambient noise increases, the page gradually darkens or distorts, prompting you to find a
 				quieter space to read.
 			</p>
-			<button class="btn btn-ghost btn-lg btn-outline">Get Started</button>
+			<a role="button" class="btn btn-ghost btn-lg btn-outline" href="/lorem">Begin Reading</a>
 		</div>
 	</div>
 </div>
