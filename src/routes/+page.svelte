@@ -1,13 +1,3 @@
-<video
-	playsinline
-	autoplay
-	muted
-	loop
-	class="object-cover w-screen h-screen fixed top-0 left-0 blur-sm"
->
-	<source src="old-film-grain.mp4" type="video/mp4" />
-</video>
-
 <div class="hero bg-black min-h-screen">
 	<div class="hero-content text-center">
 		<div class="max-w-md">
