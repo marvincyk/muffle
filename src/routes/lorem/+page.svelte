@@ -1,9 +1,8 @@
 <script lang="ts">
-	import { LoremIpsum } from "lorem-ipsum";
 	import { onMount } from "svelte";
 	import { getNoiseLevel } from "$lib/utils/noise";
+	import PdfViewer from "$lib/components/PDFViewer.svelte";
 
-	const lorem = new LoremIpsum({}, "plain", "\n\n");
 	let noiseLevel = 0;
 	let checkNoiseLevel: () => number;
 
@@ -19,7 +18,5 @@
 </script>
 
 <div style={filterStyle}>
-	<p class="text-justify leading-loose whitespace-pre-line transition-all">
-		{lorem.generateParagraphs(100)}
-	</p>
+	<PdfViewer />
 </div>

@@ -37,6 +37,6 @@
 	"type": "module",
 	"dependencies": {
 		"lodash": "^4.17.21",
-		"lorem-ipsum": "^2.0.8"
+		"pdfjs-dist": "^4.5.136"
 	}
 }
