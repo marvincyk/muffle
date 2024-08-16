@@ -17,6 +17,7 @@
 		"@sveltejs/kit": "^2.0.0",
 		"@sveltejs/vite-plugin-svelte": "^3.0.0",
 		"@types/eslint": "^9.6.0",
+		"@types/lodash": "^4.17.7",
 		"autoprefixer": "^10.4.20",
 		"daisyui": "^4.12.10",
 		"eslint": "^9.0.0",
@@ -35,6 +36,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"lodash": "^4.17.21",
 		"lorem-ipsum": "^2.0.8"
 	}
 }

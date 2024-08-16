@@ -16,11 +16,10 @@
 	});
 
 	$: filterStyle = `filter: blur(${noiseLevel / 10}px)`;
-	// $: console.log(filterStyle);
 </script>
 
 <div style={filterStyle}>
-	<p class="text-justify p-10 lg:p-20 leading-loose whitespace-pre-line transition-all">
+	<p class="text-justify leading-loose whitespace-pre-line transition-all">
 		{lorem.generateParagraphs(100)}
 	</p>
 </div>
