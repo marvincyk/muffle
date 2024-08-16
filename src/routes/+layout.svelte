@@ -24,7 +24,6 @@
 				</div>
 			</div>
 			<div class="p-10">
-				<Breadcrumbs />
 				<slot />
 			</div>
 		{/if}
