@@ -1,38 +1,18 @@
-# create-svelte
+<a id="readme-top"></a>
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+<h3 align="center">muffle</h3>
 
-## Creating a project
+  <p align="center">
+    A book reader designed to help you focus by encouraging a quieter reading environment.
+    <br />
+    <br />
+    <br />
+    <a href="https://muffle-reader.vercel.app/">View Demo</a>
+    ·
+    <a href="https://github.com/github_username/repo_name/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
+    ·
+    <a href="https://github.com/github_username/repo_name/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+  </p>
 
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+![Homepage](https://github.com/marvincyk/muffle/blob/main/screenshots/home.png?raw=true)
+![Lorem ipsum](https://github.com/marvincyk/muffle/blob/main/screenshots/lorem.png?raw=true)
