@@ -1,5 +1,4 @@
 <script lang="ts">
-	import Breadcrumbs from "$lib/components/Breadcrumbs.svelte";
 	import "../app.css";
 	import { fade } from "svelte/transition";
 	import { page } from "$app/stores";
