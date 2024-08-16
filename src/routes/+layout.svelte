@@ -3,6 +3,7 @@
 	import "../app.css";
 	import { fade } from "svelte/transition";
 	import { page } from "$app/stores";
+	import SettingsButton from "$lib/components/SettingsButton.svelte";
 
 	export let data;
 
@@ -15,7 +16,12 @@
 			<slot />
 		{:else}
 			<div class="navbar bg-base-300">
-				<a role="button" href="/" class="btn btn-ghost text-xl">muffle</a>
+				<div class="flex-1">
+					<a role="button" href="/" class="btn btn-ghost text-xl">muffle</a>
+				</div>
+				<div class="flex-none">
+					<SettingsButton />
+				</div>
 			</div>
 			<div class="p-10">
 				<Breadcrumbs />
