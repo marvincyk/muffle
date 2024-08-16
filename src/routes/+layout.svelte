@@ -6,14 +6,21 @@
 
 	export let data;
 
-	$: shouldShowBreadcrumbs = $page.route.id !== "/";
+	$: isHomePage = $page.route.id === "/";
 </script>
 
 {#key data.url}
-	<div class="p-10 lg:p-20" in:fade={{ duration: 300, delay: 400 }} out:fade={{ duration: 300 }}>
-		{#if shouldShowBreadcrumbs}
-			<Breadcrumbs class="absolute top-4" />
+	<div in:fade={{ duration: 300, delay: 400 }} out:fade={{ duration: 300 }}>
+		{#if isHomePage}
+			<slot />
+		{:else}
+			<div class="navbar bg-base-300">
+				<a role="button" href="/" class="btn btn-ghost text-xl">muffle</a>
+			</div>
+			<div class="p-10">
+				<Breadcrumbs />
+				<slot />
+			</div>
 		{/if}
-		<slot />
 	</div>
 {/key}
